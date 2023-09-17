@@ -31,8 +31,8 @@ Para mais informações, leia o arquivo requirements.txt ou [Componentes de Terc
 
 ## Interface
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;"> 
-<figure> <img width="300" height="475" src="https://raw.githubusercontent.com/JonathanAPaes/Software-Product/main/views/screenshots/checkbox.on.png"> </figure>
 <figure> <img width="300" height="475" src="https://raw.githubusercontent.com/JonathanAPaes/Software-Product/main/views/screenshots/checkbox.off.png"> </figure>
+<figure> <img width="300" height="475" src="https://raw.githubusercontent.com/JonathanAPaes/Software-Product/main/views/screenshots/checkbox.on.png"> </figure>
 </div>
 
 ## Estrutura
