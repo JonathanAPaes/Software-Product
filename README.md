@@ -62,10 +62,10 @@ Em paralelo, pode ser iniciado pelo arquivo **`#docker.ps1`**, opção 1
 
 O primeiro acesso possui modo debug ativado e fará gravações direto no banco.
 
-URL de acesso raiz: [localhost:5000](http://localhost:5000/)
-URL de acesso funcionario: [localhost:5000/funcionario](http://localhost:5000/funcionario)
-URL de acesso administrador: [localhost:5000/administrador]([http://localhost:5000/funcionario](http://localhost:5000/administrador))
-
+- [localhost:5000](http://localhost:5000/) - URL de acesso raiz
+- [localhost:5000/funcionario](http://localhost:5000/funcionario) - URL de acesso funcionario
+- [localhost:5000/administrador](http://localhost:5000/administrador)- URL de acesso administrador
+ 
 Caso o banco não funcione, abra-o manualmente no arquivo **`#docker.ps1`**, opção 4, adicione a senha e cole o conteúdo do arquivo db.sql no console mysql.
 
 ## Licença
