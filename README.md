@@ -2,7 +2,9 @@
 
 O Pontual é um aplicativo em Flask / Python & HTML5.
 
-Criado para facilitar a obtenção e registro de horários de apontamento, Pontual é um aplicativo minimalista de registro de apontamento.
+Criado para facilitar a obtenção e registro de horários de apontamento. 
+
+Pontual é um aplicativo que visa minimalismo para o cliente final, e uma gama de dados de registro de apontamento para sua empresa!
 
 ## Índice
 
@@ -28,8 +30,10 @@ Criado para facilitar a obtenção e registro de horários de apontamento, Pontu
 Para mais informações, leia o arquivo requirements.txt ou [Componentes de Terceiros](THIRD-PARTY.md)
 
 ## Interface
-![Interface desligada](views/screenshots/checkbox.off "Interface desligada")
-![Interface ligada](views/screenshots/checkbox.on "Interface ligada")
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;"> 
+<figure> <img width="300" height="475" src="https://raw.githubusercontent.com/JonathanAPaes/Software-Product/main/views/screenshots/checkbox.on.png"> </figure>
+<figure> <img width="300" height="475" src="https://raw.githubusercontent.com/JonathanAPaes/Software-Product/main/views/screenshots/checkbox.off.png"> </figure>
+</div>
 
 ## Estrutura
 **Composição técnica:**
@@ -58,9 +62,11 @@ Em paralelo, pode ser iniciado pelo arquivo **`#docker.ps1`**, opção 1
 
 O primeiro acesso possui modo debug ativado e fará gravações direto no banco.
 
-URL de acesso: [localhost:5000](http://localhost:5000/)
+URL de acesso raiz: [localhost:5000](http://localhost:5000/)
+URL de acesso funcionario: [localhost:5000/funcionario](http://localhost:5000/funcionario)
+URL de acesso administrador: [localhost:5000/administrador]([http://localhost:5000/funcionario](http://localhost:5000/administrador))
 
-Caso o banco não funcione, abra-o manualmente no arquivo **`#docker.ps1`**, opção 4 e cole o conteúdo do arquivo db.sql nele.
+Caso o banco não funcione, abra-o manualmente no arquivo **`#docker.ps1`**, opção 4, adicione a senha e cole o conteúdo do arquivo db.sql no console mysql.
 
 ## Licença
 
