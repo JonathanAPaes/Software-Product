@@ -38,6 +38,7 @@
 | Cookies     | Kebab case                 | `nome-funcionario` |
 
 - Sintaxe Infraestrutura do projeto:
+
 | Tipos       | Notação                    | Exemplo            |
 |-------------|----------------------------|--------------------|
 | Arquivos    | Kebab case                 | `nome-funcionario` |
