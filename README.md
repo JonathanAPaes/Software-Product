@@ -36,8 +36,10 @@ Para mais informações tecnicas, verifique a [Documentação](docs/index.md)
 Para mais informações sobre componentes usados no projeto, leia o arquivo requirements.txt ou [Componentes de Terceiros](THIRD-PARTY.md)
 
 ## Interface
-![Interface desligada](docs/architecture/screenshots/checkbox.off "Interface desligada")
-![Interface ligada](docs/architecture/screenshots/checkbox.on "Interface ligada")
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;"> 
+<figure> <img width="300" height="475" src="https://raw.githubusercontent.com/JonathanAPaes/Software-Product/main/docs/architecture/screenshots/checkbox.on.png"> </figure>
+<figure> <img width="300" height="475" src="https://raw.githubusercontent.com/JonathanAPaes/Software-Product/main/docs/architecture/screenshots/checkbox.off.png"> </figure>
+</div>
 
 ## Instalação
 - Extraia o conteúdo do zip em um diretório
