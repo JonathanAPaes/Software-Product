@@ -22,7 +22,14 @@ Criado para facilitar a obtenção e registro de horários de apontamento, Pontu
 - Python:3.8
 - Flask:2.0.3
 - MySQL:5.7
+
 - HTML:5/CSS:3,JS/ES:2021
+
+Para mais informações, leia o arquivo requirements.txt ou [Componentes de Terceiros](THIRD-PARTY.md)
+
+## Interface
+![Interface desligada](https://raw.githubusercontent.com/JonathanAPaes/Software-Product/main/docs/architecture/screenshots/checkbox.off.png "Interface desligada")
+![Interface ligada](https://raw.githubusercontent.com/JonathanAPaes/Software-Product/main/docs/architecture/screenshots/checkbox.on.png "Interface ligada")
 
 Para mais informações tecnicas, verifique a [Documentação](docs/index.md)
 
