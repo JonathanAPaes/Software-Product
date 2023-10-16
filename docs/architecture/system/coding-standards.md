@@ -9,6 +9,7 @@
 - Paradigmas de Programação: Funcional, Estruturado (Imperativo) 
 
 - Sintaxe Comunicação (Banco de dados):
+  
 | Tipos       | Notação                    | Exemplo            |
 |-------------|----------------------------|--------------------|
 | Tabelas     | Snake case com caixa alta  | `NOME_FUNCIONARIO` |
@@ -18,6 +19,7 @@
 | Foreign key | Snake case com caixa baixa | `nome_funcionario` |
 
 - Sintaxe Back-end (Python/Flask):
+  
 | Tipos       | Notação                    | Exemplo            |
 |-------------|----------------------------|--------------------|
 | Constantes  | Snake case com caixa alta  | `NOME_FUNCIONARIO` |
@@ -26,6 +28,7 @@
 | Classes     | Upper camel case           | `NomeFuncionario`  |
 
 - Sintaxe Front-end (HTML/CSS/JS):
+  
 | Tipos       | Notação                    | Exemplo            |
 |-------------|----------------------------|--------------------|
 | Constantes  | Camel case                 | `nomeFuncionario`  |
