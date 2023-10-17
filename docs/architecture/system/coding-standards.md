@@ -1,4 +1,4 @@
-# Estrutura
+## Estrutura
 **Composição técnica:**
 - Linguagem: Python
 - Banco de dados: MySQL
