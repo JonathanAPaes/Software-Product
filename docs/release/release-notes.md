@@ -1,4 +1,4 @@
-  ## Release Notes
+## Release Notes
 
 - Pontual 2.0a
 
