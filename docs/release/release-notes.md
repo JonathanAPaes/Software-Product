@@ -1,6 +1,6 @@
 ## Release Notes
 
-- Pontual 2.0a
+### Pontual 2.0a
 
 - [x] Divisão e estruturação de front-end por eventos (onCreate, onChange e onListen) <br>
 - [x] Fila de processamento e estruturação de base do front-end <br>
@@ -11,7 +11,7 @@
 - [x] Lógica para surgir campo de texto para orientações ao usuário e campo input para adição da descrição de atraso <br>
 - [x] Ajustar estética de novos ítens de interface de front-end do funcionário <br>
 
-- Pontual 1.0a
+### Pontual 1.0a
 
 - [x] Docker:final <br>
 - [x] MySQL:5.7 <br>
