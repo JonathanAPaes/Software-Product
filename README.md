@@ -2,13 +2,13 @@
 
 O Pontual é um aplicativo em Flask / Python & HTML5.
 
-Criado para facilitar a obtenção e registro de horários de apontamento, Pontual é um aplicativo minimalista de registro de apontamento.
+O Pontual é um aplicativo que busca o minimalismo para o cliente final e oferece uma ampla gama de dados para registro de apontamento em sua empresa.
 
 ## Índice
 
 - [Requisitos](#requisitos)
 - [Composição](#composicao) 
-- [Interface](#Interface)
+- [Interface](#interface)
 - [Instalação](#instalacao)
 - [Utilização](#utilizacao)
 - [Licença](#licenca)
