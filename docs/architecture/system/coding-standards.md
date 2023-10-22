@@ -1,12 +1,17 @@
 ## Estrutura
+
 **Composição técnica:**
 - Linguagem: Python
 - Banco de dados: MySQL
 - Framework Backend: Flask
 - Front-end: HTML, CSS, JS/ES
 - Padrão arquitetural: MVC (Model, View, Controller)
-- Metodologia de programação: Agile Hybrid
-- Paradigmas de Programação: Funcional, Estruturado (Imperativo) 
+- Metodologia de desenvolvimento: Agile Hybrid
+- Paradigmas de Programação: Funcional, Estruturado (Imperativo)
+
+
+## Sintaxes
+
 
 - Sintaxe Comunicação (Banco de dados):
   
@@ -18,6 +23,7 @@
 | Triggers    | Snake case com caixa alta  | `NOME_FUNCIONARIO` |
 | Foreign key | Snake case com caixa baixa | `nome_funcionario` |
 
+
 - Sintaxe Back-end (Python/Flask):
   
 | Tipos       | Notação                    | Exemplo            |
@@ -26,6 +32,7 @@
 | Variáveis   | Snake case com caixa baixa | `nome_funcionario` |
 | Funções     | Camel case                 | `nomeFuncionario`  |
 | Classes     | Upper camel case           | `NomeFuncionario`  |
+
 
 - Sintaxe Front-end (HTML/CSS/JS):
   
@@ -36,6 +43,7 @@
 | Funções     | Camel case                 | `nomeFuncionario`  |
 | Classes     | Upper camel case           | `NomeFuncionario`  |
 | Cookies     | Kebab case                 | `nome-funcionario` |
+
 
 - Sintaxe Infraestrutura do projeto:
 
