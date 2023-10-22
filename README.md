@@ -2,13 +2,13 @@
 
 O Pontual é um aplicativo em Flask / Python & HTML5.
 
-Criado para facilitar a obtenção e registro de horários de apontamento, Pontual é um aplicativo minimalista de registro de apontamento.
+O Pontual é um aplicativo que busca o minimalismo para o cliente final e oferece uma ampla gama de dados para registro de apontamento em sua empresa.
 
 ## Índice
 
 - [Requisitos](#requisitos)
 - [Composição](#composicao) 
-- [Interface](#Interface)
+- [Interface](#interface)
 - [Instalação](#instalacao)
 - [Utilização](#utilizacao)
 - [Licença](#licenca)
@@ -19,7 +19,7 @@ Criado para facilitar a obtenção e registro de horários de apontamento, Pontu
 - Docker Compose
 
 ## Composição
-**Pontual:2.0a**
+**Pontual:3.0a**
 - Python:3.8
 - Flask:2.0.3
 - MySQL:5.7
@@ -50,7 +50,7 @@ O primeiro acesso possui modo debug ativado e fará gravações direto no banco.
 
 URL de acesso: [localhost](http://localhost/)
 
-Caso o banco não funcione, abra-o manualmente no arquivo **`#docker.ps1`**, opção 4 e cole o conteúdo do arquivo db.sql nele.
+Caso o banco não funcione, abra-o manualmente no arquivo **`#docker.ps1`**, opção 4 e cole o conteúdo do arquivo db.sql no console mysql manualmente.
 
 ## Licença
 
@@ -60,4 +60,4 @@ Para mais informações, leia o arquivo de [licença](LICENSE)
 
 ## Links
 
-[O Pontual](https://opontual.app) |  [GitHub](https://github.com/jonathanapaes/Software-Product) |  [Board](https://github.com/users/JonathanAPaes/projects/1)
+[O Pontual](https://opontual.app) | [GitHub](https://github.com/jonathanapaes/Software-Product) | [GitHub Sites](https://jonathanapaes.github.io/Software-Product) | [Board](https://github.com/users/JonathanAPaes/projects/1)
