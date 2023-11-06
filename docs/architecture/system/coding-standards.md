@@ -8,7 +8,9 @@
 - Padrão arquitetural: MVC (Model, View, Controller)
 - Metodologia de desenvolvimento: Agile Hybrid
 - Paradigmas de Programação: Funcional, Estruturado (Imperativo)
-
+- Idioma funcional: Português (Brasil)
+- Idioma estrutural: Inglês 
+- Idiomas disponíveis: ptBR, enUS, esES, ruRU
 
 ## Sintaxes
 
@@ -52,3 +54,10 @@
 | Arquivos    | Kebab case                 | `nome-funcionario` |
 
 Para verificar as diretrizes de estilo de código Python (PEP8), acesse [PEP8](https://peps.python.org/pep-0008/).
+
+
+## Classificação de Conteúdo
+
+América do Norte e do Sul: E (TODOS)
+Brasil: L (Livre para todas as idades)
+Categoria: Produtividade
