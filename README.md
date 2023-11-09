@@ -7,11 +7,11 @@ O Pontual é um aplicativo que busca o minimalismo para o cliente final e oferec
 ## Índice
 
 - [Requisitos](#requisitos)
-- [Composição](#composicao) 
+- [Composição](#composição) 
 - [Interface](#interface)
-- [Instalação](#instalacao)
-- [Utilização](#utilizacao)
-- [Licença](#licenca)
+- [Instalação](#instalação)
+- [Utilização](#utilização)
+- [Licença](#licença)
 - [Links](#links)
 
 ## Requisitos
