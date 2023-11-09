@@ -59,5 +59,7 @@ Para verificar as diretrizes de estilo de código Python (PEP8), acesse [PEP8](h
 ## Classificação de Conteúdo
 
 América do Norte e do Sul: E (TODOS)
+
 Brasil: L (Livre para todas as idades)
+
 Categoria: Produtividade
