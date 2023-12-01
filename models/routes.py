@@ -1,0 +1,96 @@
+from . import app
+import json
+from models.queries import MyQueries
+from flask import  request, jsonify, render_template
+from datetime import datetime, timedelta
+
+@app.route('/')
+def main():
+    return render_template('index.html')
+
+@app.route('/funcionario', methods=['GET', 'POST'])
+def showFuncionario():
+    if request.method == 'POST':
+        try:
+            data = request.get_json()
+            # toggle_status = data.get('toggle')
+            id_empresa = 1
+            id_funcionario = 1
+            # id_evento = 0
+            latitude = ''
+            longitude = ''
+            user_agent = data.get('user-agent')
+            descricao = data.get('descricao')
+            
+            con = mysql.connect()
+            cur = con.cursor()
+            
+            if toggle_status:
+                toggle_status = 1
+            else:
+                toggle_status = 0
+            
+            values = (id_empresa, id_funcionario, id_evento, latitude, longitude, user_agent, descricao)
+            cur.execute(MyQueries.INSERT_APONTAMENTOS, values)
+          
+            con.commit()
+            cur.close()
+            con.close()
+
+            return jsonify({"message": "Data updated successfully"})
+        
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
+
+    try:
+        cur.execute(MyQueries.SELECT_FUNCIONARIO)
+        status_data = cur.fetchall()
+        cur.close()
+    except Exception as e:
+        print(f"Error fetching data from the database: {str(e)}")
+        status_data = []
+    return render_template('funcionario.html', status_data=status_data)
+
+@app.route('/administrador', methods=['POST', 'GET'])
+def showAdministrador():
+    con = None
+    cur = None
+    
+    try:
+        con = mysql.connect()
+        cur = con.cursor()
+        cur.execute(MyQueries.SELECT_FUNCIONARIO)
+        data = cur.fetchall()
+        
+        """
+        print(data[0])
+        for x in range(len(data)):
+            print(data[x])
+            
+        """
+        
+        result = []
+        for row in data:
+            result.append({
+                'EMPRESA_NOME': row[0],  
+                'FUNCIONARIO_NOME': row[1],
+                'CONTADOR': row[2],
+                'ESTADO': row[3],
+                'DATA_APONTAMENTO': row[4],
+                'HORA_APONTAMENTO': row[5],
+                'LATITUDE': row[6],
+                'LONGITUDE': row[7],
+                'DESCRICAO': row[8]
+            })
+        con.commit()
+
+        if request.headers.get('Content-Type') == 'application/json':
+            return jsonify(result)
+        else:
+            return render_template('teste.html', data=result)
+    except Exception as e:
+        return jsonify({'Error: ': str(e)})
+    
+@app.route('/login')
+def showLogin():
+    return render_template('login.html')
