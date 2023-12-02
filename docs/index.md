@@ -4,7 +4,7 @@
   - [*Banco de dados*](architecture/database/mysql.md)
   - [*UML*](architecture/diagrams/uml.md)
   - [*Sistema*](architecture/system/coding-standards.md)
-  - [*Sistema*](architecture/api/rest.md)
+  - [*API*](architecture/api/rest.md)
 
 ## Lançamentos
   - [*Registros de alterações*](release/changelog.md)
